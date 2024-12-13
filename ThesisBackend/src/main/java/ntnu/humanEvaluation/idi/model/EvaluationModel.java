@@ -13,4 +13,5 @@ public class EvaluationModel {
     private int userId;
     private String evaluationTitle;
     private int evaluationResult;
+
 }

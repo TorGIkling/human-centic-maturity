@@ -12,5 +12,5 @@ public class UserModel {
     private String userId;
     private String email;
     private String password;
-
+    private boolean isEvaluator;
 }
