@@ -1,14 +1,16 @@
 package ntnu.humanEvaluation.idi.model;
-import Lombok;
+import lombok.*;
 
 @Getter
 @Setter
-public class userModel {
+@AllArgsConstructor
+@RequiredArgsConstructor
+@NoArgsConstructor
+public class UserModel {
 
     private String username;
+    private String userId;
     private String email;
     private String password;
-
-
 
 }
