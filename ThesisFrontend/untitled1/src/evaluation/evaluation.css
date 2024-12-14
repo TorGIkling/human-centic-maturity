@@ -1,9 +1,8 @@
-.home-page {
+.evaluation-page {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    width: 100%;
-
+    width: 100vw;
 }

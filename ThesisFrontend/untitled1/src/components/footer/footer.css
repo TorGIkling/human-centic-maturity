@@ -1,0 +1,12 @@
+
+.footer-container {
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    background-color: #d6d6d6;
+    height: 8vh;
+    width: 100%;
+}
+
