@@ -21,7 +21,13 @@
     cursor: pointer;
 }
 
-.home-text {
+.home-icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 1rem;
+}
+
+.header-text {
     font-size: 32px;
     font-weight: 600;
     margin-left: 10px;

@@ -3,10 +3,46 @@
     margin-top: auto;
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     align-items: start;
     background-color: #d6d6d6;
-    height: 8vh;
+    height: 10vh;
     width: 100%;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 5px;
+    width: 40%;
+    height: 50%;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 5px;
+    width: 40%;
+    height: 50%;
+}
+
+.column-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.footer-link {
+    font-size: 16px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.footer-link:hover {
+    border-bottom: solid 1px black;
 }
 

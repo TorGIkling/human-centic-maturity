@@ -1,11 +1,21 @@
 import menuIcon from "../../assets/menu.svg";
 import accountIcon from "../../assets/user-account-profile.svg";
-import {useNavigate} from "react-router-dom";
+import homeIcon from "../../assets/home.svg";
+import {useLocation, useNavigate} from "react-router-dom";
 import './header.css';
 
 function Header() {
 
     const navigate = useNavigate();
+    const location = useLocation();
+
+    const headerTextMapping = {
+        "/": "Home",
+        "/support": "Support",
+        "/evaluation": "Evaluation",
+    };
+
+    const headerText = headerTextMapping[location.pathname] || "Header";
 
     const handleAccountClick = () => {
         navigate('/login');
@@ -20,7 +30,9 @@ function Header() {
 
             <img className="top-nav-menu" src={menuIcon} alt="menu"/>
 
-            <a onClick={handleHomeClick} className={"home-text"}>Home</a>
+            <img onClick={handleHomeClick} className='home-icon' src={homeIcon} alt={'home'}/>
+
+            <a className={"header-text"}>{headerText}</a>
 
             <img onClick={handleAccountClick} className="account-icon" src={accountIcon} alt="account-icon"/>
 
