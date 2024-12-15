@@ -1,0 +1,42 @@
+.profile-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5vh;
+    width: 80%;
+    height: 50vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #d6d6d6;
+}
+
+.left-profile-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 90%;
+    width: 40%;
+    align-items: start;
+    margin-right: auto;
+    margin-left: 5%;
+    border: solid 1px black;
+}
+
+.right-profile-column {
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 90%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+
+.profile-text {
+    color: black;
+
+}
+

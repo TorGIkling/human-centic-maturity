@@ -7,6 +7,7 @@ import Login from "./login/login.jsx";
 import Register from "./register/register.jsx";
 import Evaluation from "./evaluation/evaluation.jsx";
 import Support from "./support/support.jsx";
+import Profile from "./profile/profile.jsx";
 
 
 
@@ -19,6 +20,7 @@ function App() {
               <Route path='register' element={<Register/>}/>
               <Route path='/evaluation' element={<Evaluation/>}/>
               <Route path='/support' element={<Support/>}/>
+              <Route path='/profile' element={<Profile/>}/>
           </Routes>
       </>
   )

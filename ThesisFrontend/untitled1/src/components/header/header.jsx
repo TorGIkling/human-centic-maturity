@@ -13,6 +13,7 @@ function Header() {
         "/": "Home",
         "/support": "Support",
         "/evaluation": "Evaluation",
+        "/profile": "Profile"
     };
 
     const headerText = headerTextMapping[location.pathname] || "Header";
