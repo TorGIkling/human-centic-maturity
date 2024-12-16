@@ -17,7 +17,7 @@ function Footer () {
     }
 
     const handleProfilePageClick = () => {
-
+        navigate('/profile');
     }
 
     const handleStartEvalClick = () => {
