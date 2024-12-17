@@ -13,8 +13,9 @@ import lombok.Setter;
 public class Result {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int resultId;
+    private Long resultId;
     private int result;
     private String resultName;
-    private int userId;
+    private Long userId;
+    private Long evaluationId;
 }

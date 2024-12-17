@@ -14,8 +14,8 @@ public class Evaluation {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int evaluationId;
-    private int userId;
+    private Long evaluationId;
+    private Long userId;
     private String evaluationTitle;
     private int evaluationResult;
 
